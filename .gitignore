@@ -335,3 +335,5 @@ Tables.pdf
 
 *.pyc
 .metadata-*
+
+condaenv/

@@ -1,7 +1,14 @@
 matplotlib==2.1.2
-numpy==1.14.0
 ipywidgets==7.2.1
 scipy==1.0.0
+numpy==1.14.0
+econ-ark==0.10.0.dev3
+future==0.18.3
+statsmodels
+joblib
+dill
+scipy
+pandas
+psutil
 jupyter_contrib_nbextensions
 cite2c
-econ-ark
