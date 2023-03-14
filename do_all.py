@@ -13,6 +13,9 @@ my_path = os.path.join(here,'')
 path_to_models = os.path.join(my_path,'Code/Models')
 path_to_options = os.path.join(path_to_models,'Options')
 
+import sys
+sys.path.append(path_to_models)
+
 exec(open(my_path + 'USER_OPTIONS.py').read())
 os.chdir(path_to_options)
 exec(open('RunSOEonly.py').read())

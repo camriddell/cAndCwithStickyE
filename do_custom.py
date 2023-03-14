@@ -10,6 +10,10 @@ my_path = os.path.join(here,'')
 path_to_models = os.path.join(my_path,'Code/Models')
 path_to_options = os.path.join(path_to_models,'Options')
 
+import sys
+sys.path.append(path_to_models)
+
+
 # Choose which models to do work for
 do_SOE  = False          # Small open economy model (main text)
 do_DSGE = False          # Heterogeneous agent DSGE model (appendix B)
